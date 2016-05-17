@@ -1,6 +1,6 @@
 Set-ExplorerOptions -showHidenFilesFoldersDrive -showProtectedOSFiles -showFileExtensions
 
-cinst VisualStudio2013Ultimate -InstallArguments "/Features:'WebTools SQL'
+cinst VisualStudio2013Ultimate -InstallArguments /Features:'WebTools SQL'
 cinst ssdt12
 
 cinst IIS-WebServerRole -source windowsfeatures
